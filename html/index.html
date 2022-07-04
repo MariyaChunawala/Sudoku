@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- My Style Sheet-->
-    <link rel="stylesheet" href="header.css"/>
-    <link rel = "stylesheet" href="sidebar.css"/>
+    <link rel="stylesheet" href="/css/game.css"/>
+    <link rel = "stylesheet" href="/css/header.css"/>
+    <link rel="stylesheet" href="/css/sidebar.css">
 
     <!-- Font Awesome CDN Link-->
     <link rel="stylesheet" 
@@ -32,7 +33,7 @@
 <body>
     <header>
         <nav class="Navbar" id="navbar">
-            <div class="hamburger">
+            <div class="hamburger" id="toggleNav">
                 <i class="fa-solid fa-bars bars"></i>
             </div>
             <div class="logo">
@@ -50,7 +51,7 @@
     <main>
         <!-- Side Navigation Bar-->
         <section>
-            <div class="sidebar">
+            <div class="sidebar" id="sideNavBar">
                 <ul class="sidebar_lists">
                     <li class="sidebar_list">
                         <a href="#">Home</a>
@@ -70,7 +71,13 @@
                 </ul>
             </div>
         </section>
+        <section id="sudoku">
+            <div id="board"></div>
+            <br>
+            <div id="digits"></div>
+        </section>
     </main>
-    <script src="index.js"></script>
+    <script src="/js/index.js"></script>
+    <script src="/js/sudoku.js"></script>
 </body>
 </html>
