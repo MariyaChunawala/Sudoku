@@ -1,3 +1,4 @@
+// Side Navigation 
 let isSideNavOpen = true;
 
 document.getElementById("toggleNav") &&
@@ -14,6 +15,7 @@ function toggleSideNavBar() {
   isSideNavOpen = !isSideNavOpen;
 }
 
+// Sudoku Logic
 var numSelected = null;
 var tileSelected = null;
 

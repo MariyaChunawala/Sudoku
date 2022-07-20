@@ -3,6 +3,8 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* Navbar */
 .Navbar{
     display: flex;
     justify-content: flex-end;
@@ -47,6 +49,7 @@
     box-shadow: 2px 5px 8px 1px rgba(0, 0, 0, 0.2);
 }
 
+/* Sidebar */
 .sidebar{
     display: flex;
     position: fixed;
@@ -82,6 +85,7 @@
     color: #ffffff;
 }
 
+/* Sudoku Board */
 #sudoku{
     padding-top: 30px;
 }
